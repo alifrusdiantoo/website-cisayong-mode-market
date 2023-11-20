@@ -1,4 +1,128 @@
-.login-card {
-  max-width: 297px;
-  max-height: 395px;
+:root {
+  --green: #016a70;
+  --white-yellow: #ffffdd;
+  --black: #202020;
+  --fade: #10101045;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--black);
+}
+
+/* Login */
+.container {
+  background-color: var(--fade);
+}
+
+.login-card {
+  width: 297px;
+  height: 450px;
+  border-radius: 8px;
+}
+
+.btn-prim {
+  background-color: var(--green);
+  color: var(--white-yellow);
+  border-radius: 5px;
+}
+
+.btn-prim:hover {
+  background-color: #ffffff;
+  border: 1px solid var(--green);
+  transition: 0.2s;
+}
+
+.form-text {
+  font-size: 11px;
+}
+/* End Login */
+
+/* Navbar */
+.navbar {
+  background-color: var(--green);
+}
+
+.hero {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  height: 75vh;
+  align-items: center;
+  background-color: var(--fade);
+  box-shadow: 1px 1px 3px rgba(1, 1, 1, 0.5);
+}
+
+.content h1 {
+  font-size: 2em;
+}
+
+.content button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 30px;
+}
+
+/* End Navbar */
+
+/* Section New */
+.new-product {
+  min-height: 275px;
+  background-color: #eee;
+}
+
+.new-product .card span {
+  font-size: 12px;
+  max-width: 150px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  overflow-x: auto;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.scrolling-wrapper .card {
+  min-width: 155px;
+  min-height: 225px;
+}
+
+/* End Section New */
+
+/* Start Section Banner  */
+.banner {
+  height: 150px;
+  padding: 20px;
+  background-color: var(--fade);
+  background-image: url(../img/banner-bg.png);
+}
+
+.banner span {
+  font-size: 12px;
+}
+
+.banner h4 {
+  font-size: 16px;
+}
+
+.banner button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  font-size: 9px;
+}
+
+/* End Section Banner */
