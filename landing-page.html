@@ -10,6 +10,11 @@
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="asset/css/style.css" />
 
@@ -27,11 +32,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
-            <a class="nav-link" href="#">Produk</a>
-            <a class="nav-link" href="#">Toko</a>
+            <a class="nav-link active" aria-current="page" href="landing-page.html">Beranda</a>
+            <a class="nav-link" href="produk.html">Produk</a>
+            <a class="nav-link" href="toko.html">Toko</a>
             <a class="nav-link" href="#">Toko Saya</a>
-            <a class="nav-link" href="#">Logout</a>
+            <a class="nav-link" href="index.html">Logout</a>
           </div>
         </div>
       </div>
@@ -56,50 +61,45 @@
 
     <!-- Newest Section Start -->
     <section class="new-product d-flex flex-column p-2 mb-3">
-      <div class="d-flex justify-content-between">
-        <p>Produk Terbaru</p>
-        <a href="#">Lihat Semua</a>
+      <div class="d-flex justify-content-between section-head mt-2">
+        <p>Terbaru</p>
+        <a href="produk.html">Lihat Semua</a>
       </div>
       <div class="">
         <div class="scrolling-wrapper">
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-1.jpg" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Dompet Pria</span>
-              <br />
-              <span>Rp100.000</span>
+              <span class="nama">Dompet Pria</span>
+              <span class="harga">Rp100.000</span>
             </div>
           </div>
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-1.jpg" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Dompet Pria</span>
-              <br />
-              <span>Rp100.000</span>
+              <span class="nama">Dompet Pria</span>
+              <span class="harga">Rp100.000</span>
             </div>
           </div>
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-1.jpg" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Dompet Pria</span>
-              <br />
-              <span>Rp100.000</span>
+              <span class="nama">Dompet Pria</span>
+              <span class="harga">Rp100.000</span>
             </div>
           </div>
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-1.jpg" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Dompet Pria</span>
-              <br />
-              <span>Rp100.000</span>
+              <span class="nama">Dompet Pria</span>
+              <span class="harga">Rp100.000</span>
             </div>
           </div>
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-1.jpg" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Dompet Pria</span>
-              <br />
-              <span>Rp100.000</span>
+              <span class="nama">Dompet Pria</span>
+              <span class="harga">Rp100.000</span>
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@
         <div class="">
           <span>PUNYA USAHA SENDIRI?</span>
           <h4><strong>DAFTARKAN USAHAMU SEKARANG!</strong></h4>
-          <button class="btn btn-sm btn-prim">DAFTAR</button>
+          <a href="#" class="btn btn-sm btn-prim">DAFTAR</a>
         </div>
         <div class="">
           <img src="asset/img/maskot.png" alt="" srcset="" width="125" />
@@ -124,50 +124,45 @@
 
     <!-- Start Section Tas -->
     <section class="new-product d-flex flex-column mb-3 p-2">
-      <div class="d-flex justify-content-between">
+      <div class="d-flex justify-content-between section-head mt-2">
         <p>Tas</p>
         <a href="#">Lihat Semua</a>
       </div>
       <div class="">
         <div class="scrolling-wrapper">
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-2.png" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Tas Ransel Sekolah</span>
-              <br />
-              <span>Rp120.000</span>
+              <span class="nama">Tas Ransel Sekolah</span>
+              <span class="harga">Rp120.000</span>
             </div>
           </div>
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-2.png" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Tas Ransel Sekolah</span>
-              <br />
-              <span>Rp120.000</span>
+              <span class="nama">Tas Ransel Sekolah</span>
+              <span class="harga">Rp120.000</span>
             </div>
           </div>
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-2.png" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Tas Ransel Sekolah</span>
-              <br />
-              <span>Rp120.000</span>
+              <span class="nama">Tas Ransel Sekolah</span>
+              <span class="harga">Rp120.000</span>
             </div>
           </div>
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-2.png" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Tas Ransel Sekolah</span>
-              <br />
-              <span>Rp120.000</span>
+              <span class="nama">Tas Ransel Sekolah</span>
+              <span class="harga">Rp120.000</span>
             </div>
           </div>
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-2.png" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Tas Ransel Sekolah</span>
-              <br />
-              <span>Rp120.000</span>
+              <span class="nama">Tas Ransel Sekolah</span>
+              <span class="harga">Rp120.000</span>
             </div>
           </div>
         </div>
@@ -177,50 +172,45 @@
 
     <!-- Start Section Pakaian -->
     <section class="new-product d-flex flex-column p-2">
-      <div class="d-flex justify-content-between">
+      <div class="d-flex justify-content-between section-head mt-2">
         <p>Pakaian</p>
         <a href="#">Lihat Semua</a>
       </div>
       <div class="">
         <div class="scrolling-wrapper">
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-3.jpg" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Kaos Polos Oblong Pria Hitam</span>
-              <br />
-              <span>Rp120.000</span>
+              <span class="nama">Kaos Polos Oblong Pria Hitam</span>
+              <span class="harga">Rp120.000</span>
             </div>
           </div>
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-3.jpg" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Kaos Polos Oblong Pria Hitam</span>
-              <br />
-              <span>Rp120.000</span>
+              <span class="nama">Kaos Polos Oblong Pria Hitam</span>
+              <span class="harga">Rp120.000</span>
             </div>
           </div>
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-3.jpg" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Kaos Polos Oblong Pria Hitam</span>
-              <br />
-              <span>Rp120.000</span>
+              <span class="nama">Kaos Polos Oblong Pria Hitam</span>
+              <span class="harga">Rp120.000</span>
             </div>
           </div>
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-3.jpg" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Kaos Polos Oblong Pria Hitam</span>
-              <br />
-              <span>Rp120.000</span>
+              <span class="nama">Kaos Polos Oblong Pria Hitam</span>
+              <span class="harga">Rp120.000</span>
             </div>
           </div>
-          <div class="card me-2">
+          <div class="card card-product me-2">
             <img src="asset/img/product/product-3.jpg" class="card-img-top" />
             <div class="card-body p-0 ps-2 pe-2">
-              <span>Kaos Polos Oblong Pria Hitam</span>
-              <br />
-              <span>Rp120.000</span>
+              <span class="nama">Kaos Polos Oblong Pria Hitam</span>
+              <span class="harga">Rp120.000</span>
             </div>
           </div>
         </div>
