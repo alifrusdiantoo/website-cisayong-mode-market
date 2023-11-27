@@ -24,7 +24,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="landing-page.html">
           <img src="asset/img/logo.png" alt="" width="30" height="24" />
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,8 @@
             <a class="nav-link active" aria-current="page" href="landing-page.html">Beranda</a>
             <a class="nav-link" href="produk.html">Produk</a>
             <a class="nav-link" href="toko.html">Toko</a>
-            <a class="nav-link" href="#">Toko Saya</a>
+            <a class="nav-link" href="beranda-toko-penjual.html">Toko Saya</a>
+            <a class="nav-link" href="dashboard-superadmin.html">Dashboard</a>
             <a class="nav-link" href="index.html">Logout</a>
           </div>
         </div>
@@ -54,13 +55,13 @@
           </strong>
         </h1>
         <p>Wear Local, Feel Global</p>
-        <button class="btn btn-prim">Telusuri</button>
+        <button class="btn btn-prim" onclick="window.scrollTo(0, document.getElementById('new-product').offsetTop-55);">Telusuri</button>
       </main>
     </section>
     <!-- Hero section end -->
 
     <!-- Newest Section Start -->
-    <section class="new-product d-flex flex-column p-2 mb-3">
+    <section class="new-product d-flex flex-column p-2 mb-3" id="new-product">
       <div class="d-flex justify-content-between section-head mt-2">
         <p>Terbaru</p>
         <a href="produk.html">Lihat Semua</a>
@@ -113,7 +114,7 @@
         <div class="">
           <span>PUNYA USAHA SENDIRI?</span>
           <h4><strong>DAFTARKAN USAHAMU SEKARANG!</strong></h4>
-          <a href="#" class="btn btn-sm btn-prim">DAFTAR</a>
+          <a href="https://wa.link/wb5syd" target="_blank" class="btn btn-sm btn-prim">DAFTAR</a>
         </div>
         <div class="">
           <img src="asset/img/maskot.png" alt="" srcset="" width="125" />
@@ -126,7 +127,7 @@
     <section class="new-product d-flex flex-column mb-3 p-2">
       <div class="d-flex justify-content-between section-head mt-2">
         <p>Tas</p>
-        <a href="#">Lihat Semua</a>
+        <a href="produk.html">Lihat Semua</a>
       </div>
       <div class="">
         <div class="scrolling-wrapper">
@@ -174,7 +175,7 @@
     <section class="new-product d-flex flex-column p-2">
       <div class="d-flex justify-content-between section-head mt-2">
         <p>Pakaian</p>
-        <a href="#">Lihat Semua</a>
+        <a href="produk.html">Lihat Semua</a>
       </div>
       <div class="">
         <div class="scrolling-wrapper">
